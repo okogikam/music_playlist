@@ -1,1 +1,1 @@
-# mosic_playlist
+# music_playlist
