@@ -1,0 +1,13 @@
+:root{
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+  --shadow: box-shadow: 4px 4px 12px -3px rgba(125, 20, 128, 1),8px 12px 25px -16px rgba(128, 19, 120, 1);
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}

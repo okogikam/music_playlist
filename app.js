@@ -1,0 +1,1 @@
+//// javascript untuk aplikasi ////
