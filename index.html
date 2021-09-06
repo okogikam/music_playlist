@@ -1,20 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a121d47811.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/a121d47811.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="conteiner">
-        <h4><i class="fas fa-compact-disc"></i>Music Playlis</h4>
-        
+      <!-- home section -->
+      <section class="home-section">
+        <!-- carousel -->
+        <div class="carousel">
+          <img src="./src/cover/music1.jpeg" alt="" class="active" />
+          <img src="./src/cover/music2.jpg" alt="" />
+          <img src="./src/cover/music3.jpg" alt="" />
+        </div>
+
+        <!-- playlist -->
+        <h1 class="heading">recenly play</h1>
+        <div class="playlist-group">
+          <div class="playlist-card">
+            <img
+              src="./src/cover/music1.jpeg"
+              alt=""
+              class="playlist-card-img"
+            />
+            <p class="playlist-card-name">Konosuba fant</p>
+          </div>
+          <div class="playlist-card">
+            <img
+              src="./src/cover/music2.jpg"
+              alt=""
+              class="playlist-card-img"
+            />
+            <p class="playlist-card-name">genshiken</p>
+          </div>
+          <div class="playlist-card">
+            <img
+              src="./src/cover/music3.jpg"
+              alt=""
+              class="playlist-card-img"
+            />
+            <p class="playlist-card-name">awesome city club</p>
+          </div>
+        </div>
+        <!-- playlist -->
+        <h1 class="heading">Berdasarkan selera</h1>
+        <div class="playlist-group">
+          <div class="playlist-card">
+            <img
+              src="./src/cover/music1.jpeg"
+              alt=""
+              class="playlist-card-img"
+            />
+            <p class="playlist-card-name">Konosuba fant</p>
+          </div>
+          <div class="playlist-card">
+            <img
+              src="./src/cover/music2.jpg"
+              alt=""
+              class="playlist-card-img"
+            />
+            <p class="playlist-card-name">genshiken</p>
+          </div>
+          <div class="playlist-card">
+            <img
+              src="./src/cover/music3.jpg"
+              alt=""
+              class="playlist-card-img"
+            />
+            <p class="playlist-card-name">awesome city club</p>
+          </div>
+        </div>
+      </section>
+      <section class="music-player-section">
+        <div class="seek-bar-container">
+          <input type="range" class="music-seek-bar" value="0" />
+        </div>
+      </section>
     </div>
 
     <script src="data.js"></script>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
